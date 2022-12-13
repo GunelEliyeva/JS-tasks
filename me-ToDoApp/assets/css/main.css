@@ -1,0 +1,74 @@
+body {
+  background-color: white;
+}
+
+#container {
+  margin-left: 400px;
+  margin-right: 400px;
+  text-align: center;
+  background-color: rgb(4, 109, 13);
+  width: 700px;
+  padding: 15px;
+}
+#container h1 {
+  font-size: 40px;
+}
+#container #search {
+  border: none;
+  width: 400px;
+  height: 30px;
+}
+#container #add-btn {
+  background-color: rgb(16, 4, 107);
+  width: 80px;
+  height: 30px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#container #delete-btn {
+  background-color: rgb(211, 9, 9);
+  width: 80px;
+  height: 30px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#container ul {
+  list-style-type: none;
+  margin: 20px auto;
+}
+#container ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+  margin: 10px;
+}
+#container ul li h3 {
+  color: white;
+  font-size: 20px;
+}
+#container ul li .edit-button {
+  border: none;
+  font-size: 17px;
+  background-color: rgb(58, 58, 227);
+  transition: 0.5s;
+  cursor: pointer;
+  color: white;
+  width: 70px;
+  height: 20px;
+  padding-right: 10px;
+  padding: 0 12px;
+  padding: 0 10px;
+}
+#container ul li .clear {
+  border: none;
+  background-color: rgb(229, 20, 20);
+  color: white;
+  font-size: 17px;
+  transition: 0.5s;
+  cursor: pointer;
+  width: 70px;
+  height: 20px;
+}/*# sourceMappingURL=main.css.map */
